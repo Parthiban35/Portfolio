@@ -208,7 +208,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: rgba(40, 38, 38, 0.3);
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -1575,4 +1575,41 @@ h5{
     flex-direction: column;
     gap: 10px;
   }
+}
+
+/* footer */
+
+#colorlib-footer {
+  background: #f8f6f6;
+  color: #2f2e2e;
+  padding: 40px 0;
+  font-size: 15px;
+}
+
+#colorlib-footer a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+#colorlib-footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#colorlib-footer .social-icons {
+  margin-top: 15px;
+}
+
+#colorlib-footer .social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#colorlib-footer .social-icons i {
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+#colorlib-footer .social-icons i:hover {
+  color: #1abc9c;
 }
